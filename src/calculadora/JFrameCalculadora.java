@@ -7,7 +7,6 @@ package calculadora;
 
 
 import javax.swing.ImageIcon;
-import classes.Calculadora;
 
 /**
  *
@@ -43,48 +42,6 @@ public class JFrameCalculadora extends javax.swing.JFrame {
     public JFrameCalculadora() {
         initComponents();
         this.setIconImage(new ImageIcon("calculator.png").getImage());
-        
-//                        String nome = null;
-//                        int resposta;
-//                        nome = JOptionPane.showInputDialog("Qual é o seu nome?");
-//                        resposta = JOptionPane.showConfirmDialog(null, "O seu nome é " + nome + "?");
-//                        if (resposta == JOptionPane.YES_OPTION) {
-//                        // verifica se o usuário clicou no botão YES
-//                          JOptionPane.showMessageDialog(null, "Seu nome é " + nome);
-//                        } else {
-//                          JOptionPane.showMessageDialog(null, "Seu nome não é " + nome);
-//                        }
-        
-//        try (InputStream is = JFrameCalculadora.class.getResourceAsStream("fontawesome-webfont.ttf")) {
-//                    Font font = Font.createFont(Font.TRUETYPE_FONT, is);
-//                    //font = font.deriveFont(Font.PLAIN, 24f);
-//
-////                    JLabel label = new JLabel("?");
-////                    label.setFont(font);
-////
-////                    JFrame frame = new JFrame("Testing");
-////                    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-////                    frame.setLayout(new GridBagLayout());
-////                    frame.add(label);
-////                    frame.pack();
-////                    frame.setLocationRelativeTo(null);
-////                    frame.setVisible(true);
-//                      
-////                        String nome = null;
-////                        int resposta;
-////                        nome = JOptionPane.showInputDialog("Qual é o seu nome?");
-////                        resposta = JOptionPane.showConfirmDialog(null, "O seu nome é " + nome + "?");
-////                        if (resposta == JOptionPane.YES_OPTION) {
-////                        // verifica se o usuário clicou no botão YES
-////                          JOptionPane.showMessageDialog(null, "Seu nome é " + nome);
-////                        } else {
-////                          JOptionPane.showMessageDialog(null, "Seu nome não é " + nome);
-////                        }
-//
-//                    
-//                } catch (IOException | FontFormatException exp) {
-//                    exp.printStackTrace();
-//                }
     }
 
     /**
